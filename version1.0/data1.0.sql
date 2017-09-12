@@ -1,5 +1,3 @@
-
-/*Data for the table `u_yf_mail_address_book` */
 replace  into `vtiger_apiaddress`(`id`,`name`,`val`,`type`) values (1,'min_length','3','global');
 replace  into `vtiger_currency_info`(`id`,`currency_name`,`currency_code`,`currency_symbol`,`conversion_rate`,`currency_status`,`defaultid`,`deleted`) values (1,'Poland, Zlotych','PLN','zł','1.00000','Active',-11,0);
 replace  into `vtiger_customview`(`cvid`,`viewname`,`setdefault`,`setmetrics`,`entitytype`,`status`,`userid`,`privileges`,`featured`,`sequence`,`presence`,`description`,`sort`,`color`) values (104,'LBL_UNREAD',1,0,'Notification',0,1,1,0,1,0,NULL,NULL,'');
