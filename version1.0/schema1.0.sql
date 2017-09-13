@@ -34,7 +34,9 @@ ALTER TABLE `vtiger_troubletickets` ADD KEY(`ticket_no`);
 ALTER TABLE `vtiger_users` ADD `phone` VARCHAR(50) NULL DEFAULT NULL ;
 ALTER TABLE `vtiger_users` ADD `mobile` VARCHAR(50) NULL DEFAULT NULL ;
 
+ALTER TABLE `vtiger_users` CHANGE `hour_format` `hour_format` VARCHAR(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '24';
 
+ALTER TABLE `vtiger_users` CHANGE `start_hour` `start_hour` VARCHAR(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT '06:00';
 
 
 
